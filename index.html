@@ -17,13 +17,37 @@
     </h1>
 
     <div class="game-area">
-
+        <div class="controls-area">
+            <button class="btn btn--big btn--green">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+            <button class="btn btn--big btn--blue">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <button class="btn btn--big btn--orange">
+                <i class="fa-solid fa-times"></i>
+            </button>
+            <button class="btn btn--big btn--red">
+                <i class="fa-solid fa-divide"></i>
+            </button>
+        </div>
+        <div class="question-area">
+            <span id="operand1">0</span>
+            <span id="operator">x</span>
+            <span id="operand2">0</span>
+            <span></span>
+            <p id="answer-message">Enter Answer:</p>
+            <input type="number" name="answer-box" id="answer-box">
+        </div>
+        <button class="btn btn--gray">Submit Answer</button>
     </div>
     <div class="score-area">
         <p class="scores">Correct Answers <span id="score">0</span></p>
         <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </div>
 
+
+    <script src="https://kit.fontawesome.com/0eec5960d7.js" crossorigin="anonymous"></script>
     <!-- link JavaScript file to html file -->
     <script src="assets/js/script.js"></script>
 </body>
